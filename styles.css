@@ -1,0 +1,102 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #1E3A8A; /* Marine Blue */
+    color: white;
+    padding: 15px;  /* Reducido el padding */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    margin: 3px 0;  /* Reducido el margen */
+    font-size: 1.1rem;
+}
+
+header a {
+    color: #f8fafc;
+    text-decoration: none;
+}
+
+/* Section Styling */
+section {
+    margin: 10px 0;  /* Reducido el margen */
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #1E3A8A; /* Marine Blue */
+    border-bottom: 3px solid #FF7F32; /* Orange */
+    padding-bottom: 5px;
+    margin-bottom: 10px;  /* Reducido el margen */
+}
+
+/* Skills, Education, Certifications Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 8px 0;  /* Reducido el margen */
+    padding: 8px;  /* Reducido el padding */
+    background-color: white;
+    border: 1px solid #1E3A8A; /* Marine Blue */
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect on List Items */
+ul li:hover {
+    background-color: #FF7F32; /* Orange */
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;  /* Reducido el padding */
+    background-color: #1E3A8A; /* Marine Blue */
+    color: white;
+}
+
+/* Adjusting Text and Layout for Professional Look */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 20px auto;  /* Reducido el margen */
+    background-color: white;
+    padding: 20px;  /* Reducido el padding */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Grid Layout for Sections */
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;  /* Reducido el gap */
+}
+
+/* Footer small text */
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
